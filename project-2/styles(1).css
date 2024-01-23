@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #0d0529;
+}
+
+/*---------------------heading------------------------*/
+#title {
+
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 42vw;
+    margin-top: 5vh;
+}
+
+/*--------div where all cards re to e displayed-----------*/
+#search-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 3vw;
+
+}
+
+/*----------------cards--------------------------------------*/
+.search-list-item {
+    margin-top: 5vh;
+    width: 20vw;
+    height: 61vh;
+    border-radius: 10px;
+    background-color: #2e2f65;
+    border-radius: 18px;
+}
+
+#movie-search-box {
+    background-color: white;
+    height: 4vh;
+    margin-left: 27vw;
+    width: 43vw;
+    margin-top: 3vh;
+}
+
+/*--------movie title----------------*/
+h3 {
+    color: white;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 9vh;
+    background-color: #2e2f65;
+}
+
+
+button {
+    background-color: #ff004f;
+    color: white;
+    margin-left: 21px;
+    width: 17vw;
+    height: 4vh;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+}
+
+/*------------thumbnail image--------------------*/
+img {
+
+    height: 40vh;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    width: 14vw;
+}
+
+/*------------------thumbnail div-----------------------*/
+.search-item-thumbnail {
+    background-color: #2e2f65;
+    border-radius: 10px;
+}
+
+/*------------div contains movie name and button-----------*/
+.search-item-info {
+    background-color: #2e2f65;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PW Skills | Counter</title>
+
+  <!-- imported the css file -->
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Font family import -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <h1>PWSkills Blog</h1>
+    <span id="add">
+      <h2 id="close" onclick="add()">+</h2>
+
+      <!-- form to add blog -->
+      <form action="">
+        <input class="form" type="text" name="image" placeholder="   Enter Blog Post Url">
+        <br>
+        <input class="form" type="text" name="uname" placeholder="   Enter Blog Title">
+        <br>
+        <textarea class="form" type="text" name="descrip" cols="10" rows="1"
+          placeholder="   Enter Blog Description"></textarea>
+        <br>
+        <textarea class="form" style="height: 20vh;" type="text" name="content" id="" cols="10" rows="7"
+          placeholder="   Write"></textarea>
+        <br>
+        <button style="background-color: #6f11f5; color:#ecebfd; border-radius: 10px; height: 6vh; margin-left: 3vw;
+          width: 33vw;">Add Blog</button>
+      </form>
+    </span>
+  </nav>
+
+
+
+
+<!-- this where all the blog cards are to be displayed -->
+  <div class="main" id="main">
+
+  </div>
+
+  <!-- imported js file below -->
+  <script src="./counter.js"></script>
+</body>
+
+</html>

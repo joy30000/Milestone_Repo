@@ -1,0 +1,113 @@
+ /* all the css which is applied before any event are here defined via there class name and other css which are to be 
+done after some event are written in js file via there id or with inline css */
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+
+
+ }
+
+ nav {
+   font-size: 25px;
+   display: flex;
+   position: relative;
+   background-color: #57186b;
+ }
+
+ /*--------------cards---------------------*/
+ .cards {
+   margin-left: 50px;
+   overflow: auto;
+   width: 25vw;
+   height: 45vh;
+   border-radius: 10px;
+   background-color: #24273d;
+   margin-top: 4vh
+ }
+
+ /*--------add background----------  */
+ span {
+   background-color: white;
+   overflow: hidden;
+   transition-duration: 1s;
+   border-radius: 10px;
+   margin-top: 3vh;
+   width: 24vw;
+   height: 10vh;
+   margin-left: 36vw;
+ }
+
+ /*----------ADD--------*/
+ #close {
+   width: 8vw;
+   margin-top: 18px;
+   margin-left: 14.6vw;
+   border-radius: 10px;
+   background-color: #66197c;
+   color: white;
+ }
+
+
+ .form {
+   height: 5vh;
+   margin-left: 47px;
+   width: 33vw;
+   margin-top: 5vh;
+ }
+
+ /* div where all blog cards are to be displayed */
+ .main {
+   position: relative;
+   background-image: linear-gradient(#57186b,
+       /* 43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100% */
+       #30173f);
+
+   /* width: 98vw;
+   height: 90vh; */
+   transition: 1s;
+   overflow: auto;
+   gap: 6vw;
+   display: grid;
+   grid-template-columns: auto auto auto;
+
+ }
+
+
+ .blogTitle {
+   font-weight: 400;
+   font-size: 26px;
+   margin-left: 15px;
+   margin-top: 28px;
+   background-color: #24273d;
+   color: white;
+   /* border: 2px solid black; */
+   width: 46vh;
+   height: 15vh;
+ }
+
+ .status {
+   margin-top: 15px;
+   width: 22vw;
+   margin-left: 15px;
+   color: white;
+   margin-left: 2vw;
+   display: flex;
+ }
+
+ button {
+   margin-top: 10px;
+   width: 22vw;
+   border: #3425ac;
+   margin-left: 15px;
+   height: 6vh;
+   border-radius: 7px;
+   color: white;
+   background-color: #3425ac;
+   font-weight: 700;
+ }

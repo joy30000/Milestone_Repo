@@ -1,0 +1,95 @@
+/* all the css which is applied before any event are here defined via there class name and other css which are to be 
+done after some event are written in js file via there id or with inline css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+nav {
+  width: 98vw;
+  font-size: 25px;
+  display: flex;
+  position: relative;
+}
+
+/* + symbol */
+span {
+  margin-left: 80vw;
+  overflow: hidden;
+  transition-duration: 1s;
+  height: 7vh;
+  width: 37px;
+}
+
+
+.form {
+  height: 5vh;
+  margin-left: 47px;
+  width: 33vw;
+  margin-top: 5vh;
+}
+
+/* div where all blog cards are to be displayed */
+.main {
+  position: relative;
+  /* background-color: #ffffff; */
+  /* background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  ); */
+  background-color: #ffffff;
+  width: 98vw;
+  height: 90vh;
+  transition: 1s;
+  overflow: auto;
+  margin-top: 5px;
+  margin-left: 3px;
+  gap: 6vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.image {
+  height: 280px;
+  width: 343px;
+  border-radius: 10px;
+  margin: 15px 0px 0px 15px;
+}
+
+.blogTitle {
+  font-weight: 400;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: fit-content;
+}
+
+.descrip {
+  margin-top: 15px;
+  width: 22vw;
+  margin-left: 15px;
+}
+
+button {
+  margin-top: 20px;
+  width: 22vw;
+  margin-left: 15px;
+  height: 4vh;
+  border-radius: 7px;
+  color: #f1a692;
+  background-color: #fff0ed;
+  font-weight: 700;
+}
+
+.content {
+  display: none;
+  color: #93a8ba;
+}
